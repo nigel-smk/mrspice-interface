@@ -12,18 +12,19 @@ const QueryPage = props =>
                     <Delete className="Selected-Icon" />
                     <h1 className="Selected-Title">Pot</h1>
                 </div>
-                <button className="Selected-RecipesNav"></button>
+                <button className="ToRecipesButton">Recipes -></button>
             </header>
             <div className="Selected-Options">
 
             </div>
         </section>
-        <section className="Selector">"
-            <header className="Selector-Header">"
+        <section className="Selector">
+            <header className="Selector-Header">
                 <div className="Selector-Label">
                     <Kitchen className="Selector-Icon" />
                     <h1 className="Selector-Title">Pantry</h1>
                 </div>
+                <input className="Selector-Filter" type="text" placeholder="Filter"/>
             </header>
             <div className="Selector-Options">
 

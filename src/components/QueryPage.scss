@@ -3,5 +3,73 @@
 }
 
 .Selected {
-    
+    width: 100%;
+
+    // TODO are headers the same block?
+    &-Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 1rem 1rem 0 0;
+        border: thin solid black;
+    }
+
+    &-Label {
+        display: flex;
+        align-items: center;
+    }
+
+    &-Icon {
+        margin-right: 0.5rem;
+    }
+
+    &-Title {
+        // reset
+        margin: 0;
+    }
+
+    &-Options {
+        height: 200px;
+        border: thin solid black;
+    }
 }
+
+.Selector {
+    width: 100%;
+
+    &-Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 1rem 1rem 0 0;
+        border: thin solid black;
+    }
+
+    &-Label {
+        display: flex;
+        align-items: center;
+    }
+
+    &-Icon {
+        margin-right: 0.5rem;
+    }
+
+    &-Title {
+        // reset
+        margin: 0;
+    }
+
+    &-Filter {
+        min-width: 20px;
+        max-width: 50px;
+    }
+
+    &-Options {
+        height: 200px;
+        border: thin solid black;
+    }
+}
+
+.ToRecipesButton { }
